@@ -1,0 +1,43 @@
+1- A faire quand on se connecte pour la 1ère sur Visual Code Studio, une fois que Git a été installé sur son ordi.
+
+git --version
+(pour vérifier que Git a bien été installé)
+
+git config --global user.name "nomsurGit"
+
+git config --global user.email "mailsurGit@blabla.com"
+
+
+2- Pour insérer le projet git sur le visual studio de son ordi
+
+ - Créer un dossier et l'ouvrir avec Visual studio code
+
+ - Dans le terminal taper les commandes suivantes :
+
+	git init
+
+	git clone https://github.com/mguillou56/grouille_laravel.git
+
+
+Et les fichiers seront tous importés sous ton Visual Code Studio sauf certains fichiers qui sont dans gitignore comme
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+
+Pour les insérer une bonne fois pour toute sur ton ordi. :
+
+Actions dans le terminal : 
+
+	cd grouille_laravel (pour être sur le bon répertoire)
+
+	composer update (laisser "travailler")
+
+Copier/Coller le fichier .env.example et le renommer en .env
+
+
+Dans le terminal taper la commande suivante :
+
+php artisan key:generate
