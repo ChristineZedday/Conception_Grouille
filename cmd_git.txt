@@ -1,0 +1,41 @@
+﻿D: // Changer de disque dur
+dir // Afficher l'arborescence
+cd // Se déplacer dans l'arborescence 
+cd .. // Se déplacer en arrière dans l'arborescence
+mkdir nouveauDossier // Création d'un nouveau dossier
+
+git
+git --version
+git config --global user.name "Jean Kevin"
+git config --global user.email "mail@blabla.com"
+git config --list
+
+
+
+git init // Initialiser GIT dans le dossier de votre projet
+
+git status // Affiche la liste des fichiers modifiés ainsi que les fichiers qui doivent encore être ajoutés ou validés
+
+// Pour commit
+git add nomDuFichier // Selectionner le fichier
+git commit -m "Mon commentaire" // Commit + ajouter un commentaire
+
+git log // Time line des commits
+
+
+
+git remote add origin https://github.com/R-one-R/monRepertoire.git // A faire qu'une fois
+
+git push origin master // Push sur github
+
+
+
+
+
+git clone https://github.com/R-one-R/Repertoire.git // Récuperer un projet existant
+git clone /chemin/vers/dépôt
+
+
+
+https://www.hostinger.fr/tutoriels/commandes-git/
+
