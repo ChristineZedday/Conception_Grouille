@@ -1,0 +1,28 @@
+
+Mettre à jour .gitignore sous Vendor
+
+/node_modules
+/public/hot
+/public/storage
+/public/js
+/public/css
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+
+A taper sur la console
+PS C:\Users\mguillou\Desktop\Site_Grouille_Laravel\grouille_laravel> git rm -r public/js --cache
+rm 'public/js/admin.js'
+rm 'public/js/app.js'
+rm 'public/js/wysiwyg.js'
+PS C:\Users\mguillou\Desktop\Site_Grouille_Laravel\grouille_laravel> git rm -r public/css --cache
+rm 'public/css/admin.css'
+rm 'public/css/app.css'
