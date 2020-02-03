@@ -1,16 +1,16 @@
-1- A faire quand on se connecte pour la 1ère sur Visual Code Studio, une fois que Git a été installé sur son ordi.
+1- A faire quand on se connecte pour la 1Ã¨re sur Visual Code Studio, une fois que Git a Ã©tÃ© installÃ© sur son ordi.
 
 git --version
-(pour vérifier que Git a bien été installé)
+(pour vÃ©rifier que Git a bien Ã©tÃ© installÃ©)
 
 git config --global user.name "nomsurGit"
 
 git config --global user.email "mailsurGit@blabla.com"
 
 
-2- Pour insérer le projet git sur le visual studio de son ordi
+2- Pour insÃ©rer le projet git sur le visual studio de son ordi
 
- - Créer un dossier et l'ouvrir avec Visual studio code
+ - CrÃ©er un dossier et l'ouvrir avec Visual studio code
 
  - Dans le terminal taper les commandes suivantes :
 
@@ -19,7 +19,7 @@ git config --global user.email "mailsurGit@blabla.com"
 	git clone https://github.com/mguillou56/grouille_laravel.git
 
 
-Et les fichiers seront tous importés sous ton Visual Code Studio sauf certains fichiers qui sont dans gitignore comme
+Et les fichiers seront tous importÃ©s sous ton Visual Code Studio sauf certains fichiers qui sont dans gitignore comme
 /node_modules
 /public/hot
 /public/storage
@@ -27,17 +27,20 @@ Et les fichiers seront tous importés sous ton Visual Code Studio sauf certains f
 /vendor
 .env
 
-Pour les insérer une bonne fois pour toute sur ton ordi. :
+Pour les insÃ©rer une bonne fois pour toute sur ton ordi. :
 
 Actions dans le terminal : 
 
-	cd grouille_laravel (pour être sur le bon répertoire)
+	cd grouille_laravel (pour Ãªtre sur le bon rÃ©pertoire)
 
 	composer update (laisser "travailler")
 
-Copier/Coller le fichier .env.example et le renommer en .env
+Copier/Coller le fichier .env.example et le renommer en .env donner le nom de la base qu'on utilise
 
 
 Dans le terminal taper la commande suivante :
 
 php artisan key:generate
+
+npm install (pour les modules node)
+
