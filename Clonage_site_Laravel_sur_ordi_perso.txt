@@ -31,7 +31,7 @@ Pour les insérer une bonne fois pour toute sur ton ordi. :
 
 Actions dans le terminal : 
 
-	cd grouille_laravel (pour être sur le bon répertoire)
+	cd grouille_laravel (pour être sur le bon répertoire) ou ouvrir le répertoire avec visual studio code
 
 	composer update (laisser "travailler")
 
